@@ -41,8 +41,8 @@ public class PageTest {
 	}
 
 	@After
-	public void close() {
-		driver.close();
+	public void quit() {
+		driver.quit();
 	}
 
 }
