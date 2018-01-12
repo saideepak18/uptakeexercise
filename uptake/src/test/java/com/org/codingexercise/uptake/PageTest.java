@@ -17,6 +17,7 @@ public class PageTest {
 	@Before
 	public void setup() {
 		// using chrome
+		// please update chromedriver.exe path while testing
 		System.setProperty("webdriver.chrome.driver", "D:\\Chrome\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
